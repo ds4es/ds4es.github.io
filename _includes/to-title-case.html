@@ -1,0 +1,16 @@
+<script type="text/javascript">
+    // Titles formatting
+    $(window).on('load', function() {
+
+        var tags_to_format = ["h1","h2","h3","h4","h5","h6"];
+        for (var i = 0; i < tags_to_format.length; i++) {
+            for(var j = 0, elems = document.getElementsByTagName(tags_to_format[i]); j < elems.length; j++) { 
+               elems[j].innerHTML = elems[j].innerHTML.toTitleCase();
+            }
+        }
+        for(var j = 0, elems = document.getElementsByClassName("to-title-case"); j < elems.length; j++) { 
+           elems[j].innerHTML = elems[j].innerHTML.toTitleCase();
+        }
+    });
+    
+</script>

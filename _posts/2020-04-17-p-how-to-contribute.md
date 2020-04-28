@@ -3,9 +3,10 @@ date: 2020-04-17
 layout: post
 title: How to contribute
 subtitle: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+status: First draft
+website: http://ds4es.org/docs
 github_repo: https://github.com/ds4es/ds4es.github.io
-website: http://ds4es.org/doc
-description: How to contribute to the Data Science for Emergency Services initiative.
+description: How can I contribute to the Data Science for Emergency Services initiative.
 image: assets/img/posts/contributing-big.jpg
 optimized_image: assets/img/posts/contributing-small.jpg
 category: documentation
@@ -21,7 +22,7 @@ The ds4es GitHub repo ([http://github.com/ds4es](http://github.com/ds4es)) aims 
 
 If your are **interested in starting or contributing to** any project that could benefit emergency services, you are warmly welcomed to do so. To help you on your first steps please take a quick look at:
 
-* [Contributing](https://ds4es.org/docs/index.html)
+* [Contributing](https://ds4es.org/docs/contributing.html)
 * [Setup your working environment](https://ds4es.org/docs/working_environment.html)
 * [Coding Guidelines](https://ds4es.org/docs/working_environment.html)
 * [Data Science Project Template](https://ds4es.org/docs/ds_project_template.html)
