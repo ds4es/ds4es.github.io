@@ -15,7 +15,7 @@ email: ds4es.mailbox@gmail.com
 disqus:
     # Leave shortname blank to disable comments site-wide.
     # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
-    shortname: "https-ds4es-org"
+    shortname: https-ds4es-org
 
 show_hero: true
 menu:
