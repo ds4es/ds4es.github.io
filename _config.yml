@@ -2,12 +2,7 @@
 name: Data Science for Emergency Services
 title: Data Science for Emergency Services
 description: The ds4es initiative aims to promote a welcome place for data science projects willing to tackle challenges faced by emergency services.
-tags:
-  - blog
-  - template
-  - jekyll
-  - theme
-  - netlify
+keywords: "emergency service, EMS, emergency medical services, fire department, firefighting, hazardous materials response, police, law enforcement, criminal investigation, maintenance of public order. markup language, data science, machine learning, artificial intelligence, AI, deep learning, python, open source, FOSS, free and open-source software, collaboration"
 email: ds4es.mailbox@gmail.com
 # Original 
 # disqus_username: "ds'es"
@@ -40,10 +35,10 @@ github_username: ds4es
 
 
 # Posts Settings
-show_time_bar: true
+show_time_bar: false
 show_modal_on_exit: false
 show_modal_on_finish_post: true
-two_columns_layout: true
+two_columns_layout: false
 
 
 # Advanced Settings
