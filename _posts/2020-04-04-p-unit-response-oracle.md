@@ -1,10 +1,10 @@
 ---
 date: 2020-04-04
 layout: post
-title: Emergency services unit response oracle
+title: Unit response oracle
 subtitle: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
 status: In progress
-github_repo: https://github.com/ds4es/esuro
+github_repo: https://github.com/ds4es/unit-response-oracle
 description: Project aiming to propose a solution to offer a high resolution of the capacity coverage monitoring for critical dispatch services such as an emergency service.
 image: assets/img/posts/esuro-big.jpg
 optimized_image: assets/img/posts/esuro-small.jpg

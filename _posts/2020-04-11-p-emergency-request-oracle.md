@@ -4,7 +4,7 @@ layout: post
 title: Emergency request oracle
 subtitle: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
 status: Not started yet, waiting for contributors
-github_repo: https://github.com/ds4es/ero
+github_repo: https://github.com/ds4es/emergency-request-oracle
 description: Predict the demand for relief at high spatial resolution.
 image: assets/img/posts/ero-big.jpg
 optimized_image: assets/img/posts/ero-small.jpg
