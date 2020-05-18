@@ -24,8 +24,10 @@ This project aims to show one path to make this goal affordable with Apache Kafk
 
 <br>
 
-<center><big><a href="https://ds4es.org/real-time-data-replication-between-remote-is">https://ds4es.org/real-time-data-replication-between-remote-is</a></big></center>
-
+<center><big><a href="https://ds4es.org/real-time-data-replication-between-remote-is">https://ds4es.org/real-time-data-replication-between-remote-is</a></big>
 <br>
 
 <img src="/assets/img/work-in-progress.png">
+</center>
+
+

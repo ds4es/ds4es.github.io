@@ -24,4 +24,8 @@ This project aims to predict the response time of the appliances of an emergency
 
 Thanks to all of them very much for the work carried out and shared.
 
+<center>
+<br>
 
+<img src="/assets/img/work-in-progress.png">
+</center>

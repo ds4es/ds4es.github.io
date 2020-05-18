@@ -27,7 +27,18 @@
 
                 <div class="row">
                   <div class="col grid s12 m6 l7">
-                    <img src="{{ page.image | prepend: '/' }}" alt="Featured image" class="responsive-img">
+
+                    {% if page.youtube %}
+                        <div onMouseOver="showVideoOnHover(this)" onMouseOut="hideVideo()"  onclick = "showVideo(this)">
+                            <img id="post_image" width="100%" src="{{page.image | prepend: '/' }}"  data-src = "https://www.youtube.com/embed/{{ page.youtube }}?autoplay=1&mute=1&enablejsapi=1"/>
+
+                            <iframe id="youtube" width="100%" style="display:none;" onStateChange="alert('onStateChange');">
+                            </iframe>
+                        </div>
+                    {% else %}
+                        <img src="{{ page.image | prepend: '/' }}" alt="Featured image" class="responsive-img">
+                    {% endif %}
+                                     
                   </div>
                   <div class="col grid s12 m6 l5">
                   <p class="post-content">
@@ -214,6 +225,7 @@
             "articleSection": "{{ page.category }}",
             "keywords": [{{ page.tags | join: '","' | append: '"' | prepend: '"' }}]
         }
+
         </script>
         {% include to-title-case.html %}
     </body>
