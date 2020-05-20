@@ -1,9 +1,11 @@
-<header class="bar-header">
+<header class="bar-header" style="display: flex;">
     <a id="menu" role="button">
         <svg id="open" class="icon-menu"><use xlink:href="#icon-menu"></use></svg>
     </a>
-    <h1 class="logo">
-        <a href="{{ site.baseurl }}/">
+    
+    <h1 class="logo" style="display: table-cell;
+vertical-align: middle;position: relative;box-sizing: inherit;bottom: 1px">
+            <a href="{{ site.baseurl }}/" id="site-name">
             {% if site.use_logo %}
                 {% include logo.html %}
             {% else %}
@@ -12,14 +14,22 @@
         </a>
     </h1>
 
-    <!-- search box like NETFLIX !!!!
+    <!-- search box like NETFLIX !!!!-->
+    <div style="flex-grow: 1;text-align: center;"></div>
 
-          <div class="search-box" style="float: right">
-            <i class="fa fa-search search-box__icon" id="search-box__icon"></i>
-            <input class="search-box__input" placeholder="Search..."/>
-          </div>
+    <form action="/search/" method="get" style="padding-right: 10px;margin-top:2px">
+      <div class="search-box">
+        <a href="#" onclick="$(this).closest('form').submit()" id="download-button">
+        
+   
+            </a>
+        <input class="search-box__input" placeholder="Search..." type="text" id="search-box" name="query" style="margin: 0;height: 2.5rem;" />
 
-    -->
+      </div>
+
+    </form>
+
+<!--    -->
 
 </header>
 

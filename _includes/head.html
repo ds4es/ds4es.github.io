@@ -104,9 +104,24 @@
     </script>
     <script src="{{ site.url }}/assets/js/jquery.min.js"></script>
     <!--<script src="https://kit.fontawesome.com/5e301dc2df.js" crossorigin="anonymous"></script>-->
-    <script src="{{ site.url }}/assets/js/search/search.js"></script>
     <script src="{{ site.url }}/assets/js/to-title-case.js"></script>
     <script src="{{ site.url }}/assets/js/custom.js"></script>
+    <script>
+        $(window).resize(function(){
+            if ($(window).width() < 800) {
+                document.getElementById("site-name").innerHTML = "{{ site.shortname }}";
+            } else {
+                document.getElementById("site-name").innerHTML = "{{ site.name }}"; 
+            }
+        });
+
+        $(document).ready(function() {
+            if ($(window).width() < 800) {
+                document.getElementById("site-name").innerHTML = "{{ site.shortname }}";
+            }
+        });
+
+    </script>
 
     
 </head>

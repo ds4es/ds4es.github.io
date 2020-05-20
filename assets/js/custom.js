@@ -14,11 +14,3 @@ function hideVideo()
     $("#youtube").css("display","none");
     $("#post_image").css("display","block");
 }
-/*
-$("featured_video").addEventListener("onStateChange", function(state){
-   	alert("fin, state: " + state);
-    if(state === 0){
-        // the video is end, do something here.
-    }
-});
-*/
