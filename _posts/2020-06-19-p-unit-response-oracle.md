@@ -8,6 +8,7 @@ github_repo: https://github.com/ds4es/unit-response-oracle
 description: Predictive solution for the response time prediction of emergency service intervention units
 image: assets/img/posts/esuro-big.jpg
 optimized_image: assets/img/posts/esuro-small.jpg
+youtube: M-CsXZfVtZk
 category: machine learning model
 tags:
   - books
