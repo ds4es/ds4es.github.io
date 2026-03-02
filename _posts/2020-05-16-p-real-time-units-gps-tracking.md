@@ -2,17 +2,18 @@
 date: 2020-05-16
 layout: post
 title: Real-Time Units Gps Tracking
-subtitle: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-status: In progress
+subtitle: Broadcasting and visualizing GPS data in real-time
 github_repo: https://github.com/ds4es/real-time-units-gps-tracking
-description: Implementation of a real-time GPS tracking service with Python and Apache Kafka. 
+description: Implementation of a real-time GPS tracking service with Python and Apache Kafka.
 image: assets/img/posts/real-time-units-gps-tracking-big.jpg
 optimized_image: assets/img/posts/real-time-units-gps-tracking-small.jpg
 youtube: 4CzO6GJz9rw
 category: architecture
 tags:
-  - books
-  - read
+  - python
+  - kafka
+  - real-time
+  - geospatial
 author: ds4es
 comments: true
 ---

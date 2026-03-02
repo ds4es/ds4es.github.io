@@ -2,8 +2,7 @@
 date: 2020-06-19
 layout: post
 title: Unit response oracle
-subtitle: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-status: In progress
+subtitle: Predicting emergency response times with machine learning
 github_repo: https://github.com/ds4es/unit-response-oracle
 description: Predictive solution for the response time prediction of emergency service intervention units
 image: assets/img/posts/esuro-big.jpg
@@ -11,8 +10,10 @@ optimized_image: assets/img/posts/esuro-small.jpg
 youtube: M-CsXZfVtZk
 category: machine learning model
 tags:
-  - books
-  - read
+  - python
+  - machine-learning
+  - prediction
+  - emergency-services
 author: ds4es
 comments: true
 ---
